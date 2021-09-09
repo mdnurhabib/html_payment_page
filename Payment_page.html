@@ -9,6 +9,7 @@
  <center> <h3> Contact information </h3></center>
 	<form>
 	<p>Name : <input type="text" name="name" id="name" required> </p>
+		
 		<fieldset>
 			<legend>Gender</legend>
 			 Maale : <input type="radio" name="gander" id="male" required>
@@ -44,4 +45,114 @@
 <input type="reset" value="Reset">
 			</form>
 </body>
+</ht<!--Code By Md. Nur Habib-->
+
+<!-- Language : HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Payment Page</title>
+
+</head>
+
+<body>
+
+ <center> <h2>Payment Page </h2></center> <hr>
+
+ <center> <h3> Contact information </h3></center>
+
+<!-- Form-->
+
+<form>
+
+ <p>First Name : <input type="text" name="fname" id="fname" required> </p>
+
+ <p> Last Name : <input type="text" name="lname" id="lname"</p>
+
+<!--Gender-->
+
+  <fieldset>
+
+<legend>Gender</legend>
+
+Maale : <input type="radio" name="gander" id="male" required>
+
+  <br>
+
+Female : <input type="radio" name="gander" id="female" required>
+
+  </fieldset> <br>
+
+<!--Address-->
+
+  <address>
+
+    <legend>Address</legend><textarea name="address" id="address" placeholder="Area, City,Twon and Postal address" cols="40" rows="5"></textarea>
+
+   </address>
+
+ <!--Mail And Mobile Number-->
+
+ <p>Email : <input type="email" id="email" name="email" required></p>
+
+ <p> Mobile Number : <input type="tel" id="number" name="number" maxlength="15" required ></p>
+
+ <center> <h3>Payments Information </h3></center>
+
+<!--Card Type-->
+
+<p> Card Type :
+
+  <select>
+
+   name="card_type" id="card_type">
+
+  <option value=""> --Select a card Type--</option>
+
+  <option value="Visa">Visa</option>
+
+  <option value="Master Card">Master Card</option>
+
+  <option value="Citibank">Citibank</option>
+
+  <option value="Chase">Chase</option>
+
+  <option value="American Express">American Express</option>
+
+  <option value="Capital One">Capital One</option>
+
+    </select>
+
+<!--Card Number And expiration date-->
+
+<p>Card Number :
+
+<input id="card" type="tel" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"></p>
+
+<p>Expiration date of card : <input type="date" name="expdate" id="expdate"></p> 
+
+<p>CVV : <input type="password" name="cvv" placeholder="************"> </p>
+
+<br> <br>
+
+<!--Submit And reset button-->
+
+<input type="submit" value="Submit"> 
+
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+
 </html>
